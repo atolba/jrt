@@ -46,8 +46,8 @@
 				<div class="title">Ala'a Tolba</div>
 				<div class="quote">{{ Inspiring::quote() }}</div>
 				<br>
-				<a href="{{ url('/auth/login') }}" class="btn btn-primary" role="button">Login</a>
-				<a href="{{ url('/auth/register') }}" class="btn btn-default" role="button">Register</a>
+				<a href="{{ url('/auth/login') }}" class="btn btn-primary btn-md" role="button"><b>Login</b></a>
+				<a href="{{ url('/auth/register') }}" class="btn btn-default btn-md" role="button"><b>Register</b></a>
 			</div>
 		</div>
 	</body>
