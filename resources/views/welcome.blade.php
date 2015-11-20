@@ -3,6 +3,9 @@
 		<title>Ala'a Tolba</title>
 		
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 		<style>
 			body {
@@ -45,10 +48,6 @@
 				<br>
 				<a href="{{ url('/auth/login') }}" class="btn btn-primary" role="button">Login</a>
 				<a href="{{ url('/auth/register') }}" class="btn btn-default" role="button">Register</a>
-
-				<!-- Scripts -->
-				<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-				<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 			</div>
 		</div>
 	</body>
