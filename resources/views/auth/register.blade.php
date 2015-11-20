@@ -45,7 +45,7 @@
 						<div class="form-group">
 							<label class="col-md-4 control-label">Phone Number</label>
 							<div class="col-md-6">
-								<input type="text" class="form-control" name="phone" placeholder=”8888888888” required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="{{ old('phone') }}">
+								<input type="text" class="form-control" name="phone" placeholder="888-888-8888" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="{{ old('phone') }}">
 							</div>
 						</div>
 
