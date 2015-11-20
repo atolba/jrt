@@ -30,12 +30,10 @@
 			.title {
 				font-size: 96px;
 				margin-bottom: 40px;
-				color: #8B008B;
 			}
 
 			.quote {
 				font-size: 24px;
-				color: #696969;
 			}
 		</style>
 	</head>
@@ -47,6 +45,10 @@
 				<br>
 				<a href="{{ url('/auth/login') }}" class="btn btn-primary" role="button">Login</a>
 				<a href="{{ url('/auth/register') }}" class="btn btn-default" role="button">Register</a>
+
+				<!-- Scripts -->
+				<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+				<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 			</div>
 		</div>
 	</body>
